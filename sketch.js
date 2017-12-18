@@ -30,7 +30,7 @@ var h=windowHeight/2;
 
 function preload() {
     // load the CSV data into our `table` variable and clip out the header row
-    table = loadTable("assets/all_month.csv", "csv", "header");
+    table = loadTable("https://3milychu.github.io/sig-earthquakes/assets/all_month.csv", "csv", "header");
 }
 
 function setup() {
